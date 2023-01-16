@@ -223,6 +223,8 @@ header .container {
   grid-template-columns: repeat(4,1fr);
   grid-gap: 10vw;
   
+  align-items: center;
+  justify-content: center;
 }
 .sec4div{
   padding-top: 10px;
@@ -309,7 +311,9 @@ header .container {
   .sec4items{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    
+    background-color: black;
+    align-items: center;
+    justify-content: center;
   }
   .sec5text{
     text-align:center;
@@ -338,7 +342,9 @@ header .container {
   .sec4items{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    
+    background-color: black;
+    align-items: center;
+    justify-content: center;
   }
   .sec5text{
     text-align:center;

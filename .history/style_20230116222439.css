@@ -221,19 +221,19 @@ header .container {
 #sec4items{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  grid-gap: 10vw;
-  
+  column-gap: 30px;
 }
 .sec4div{
   padding-top: 10px;
   border: 1px solid #ff900e; 
-  
+  height: 150px;
+  width: 150px
 }
 .h3sec4 , .sec4text{
   text-align: center;
 }
 .sec4img{
-  padding-left: 40%;
+  padding-left: 30%;
 }
 /*<!--section 5 Our sponsors-->*/
 .sec5text{
@@ -309,7 +309,6 @@ header .container {
   .sec4items{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    
   }
   .sec5text{
     text-align:center;
@@ -338,7 +337,6 @@ header .container {
   .sec4items{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    
   }
   .sec5text{
     text-align:center;
