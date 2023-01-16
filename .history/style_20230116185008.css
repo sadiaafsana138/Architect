@@ -224,32 +224,18 @@ header .container {
   
 }
 .sec4div{
-  padding-top: 10px;
-  border: 1px solid #ff900e; 
-  height: 150px;
-  width: 150px
+  background-color: blue;
+  border: 100px solid #ff900e; 
 }
 .h3sec4 , .sec4text{
   text-align: center;
 }
 .sec4img{
-  padding-left: 30%;
+  padding-left: 27%;
 }
 /*<!--section 5 Our sponsors-->*/
-.sec5text{
-  text-align:center;
-}
-.sec5subtext{
-  text-align:center;
-}
-.icondiv{
-  display: flex;
-  justify-content: space-around;
-}
-.sec5div img{
-  filter:grayscale(100%)
-  
-}
+
+
 
 
 

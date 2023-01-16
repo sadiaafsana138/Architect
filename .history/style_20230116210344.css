@@ -247,8 +247,8 @@ header .container {
   justify-content: space-around;
 }
 .sec5div img{
-  filter:grayscale(100%)
-  
+  filter: gray(100%);
+  -webkit-filter: gray(100%);
 }
 
 

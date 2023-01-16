@@ -245,10 +245,7 @@ header .container {
 .icondiv{
   display: flex;
   justify-content: space-around;
-}
-.sec5div img{
-  filter:grayscale(100%)
-  
+  color: gray;
 }
 
 
