@@ -309,8 +309,6 @@ header .container {
   }
   .sec4items{
     flex-direction: column;
-    align-items: center;
-    justify-content:center;
   }
   .sec5text{
     text-align:center;
@@ -320,8 +318,7 @@ header .container {
   }
 .icondiv{
   flex-direction: column;
-  align-items: center;
-  justify-content:center;
+  width:150%
 }
 }
 @media only screen and (min-width: 688px) and (max-width: 992px) {
@@ -338,8 +335,6 @@ header .container {
   }
   .sec4items{
     flex-direction: column;
-    align-items: center;
-    justify-content:center;
   }
   .sec5text{
     text-align:center;
@@ -349,8 +344,7 @@ header .container {
   }
   .icondiv{
     flex-direction: column;
-    align-items: center;
-    justify-content:center;
+    padding-left: 100px;
 
   }
 }

@@ -309,8 +309,6 @@ header .container {
   }
   .sec4items{
     flex-direction: column;
-    align-items: center;
-    justify-content:center;
   }
   .sec5text{
     text-align:center;
@@ -338,8 +336,6 @@ header .container {
   }
   .sec4items{
     flex-direction: column;
-    align-items: center;
-    justify-content:center;
   }
   .sec5text{
     text-align:center;
