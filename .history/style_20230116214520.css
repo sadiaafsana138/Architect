@@ -240,7 +240,6 @@ header .container {
   text-align:center;
 }
 .sec5subtext{
-  padding-top: 10px;
   text-align:center;
   color: gray;
 }
@@ -256,8 +255,8 @@ header .container {
   background-color: bisque;
 }
 .footerdiv{
-  width:auto;
-  height: 40px;
+  width: 1em;
+  height: 20px;
 
 }
 

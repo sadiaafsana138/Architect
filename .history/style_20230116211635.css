@@ -240,9 +240,7 @@ header .container {
   text-align:center;
 }
 .sec5subtext{
-  padding-top: 10px;
   text-align:center;
-  color: gray;
 }
 .icondiv{
   display: flex;
@@ -251,14 +249,6 @@ header .container {
 .sec5div img{
   filter:grayscale(100%)
   
-}
-.footer{
-  background-color: bisque;
-}
-.footerdiv{
-  width:auto;
-  height: 40px;
-
 }
 
 
@@ -307,18 +297,12 @@ header .container {
     display: grid;
     grid-template-columns: repeat(1,1fr);
   }
-  .sec4items{
+  .section-4{
     flex-direction: column;
   }
-  .sec5text{
-    text-align:center;
-  }
-  .sec5subtext{
-    text-align:center;
-  }
-.icondiv{
-  flex-direction: column;
-  width:100%
+.section-5{
+  display:grid;
+  grid-template-columns: repeat(1,1fr);
 }
 }
 @media only screen and (min-width: 688px) and (max-width: 992px) {
@@ -333,17 +317,11 @@ header .container {
     display: grid;
     grid-template-columns: repeat(2,1fr);
   }
-  .sec4items{
+  .section-4{
     flex-direction: column;
   }
-  .sec5text{
-    text-align:center;
-  }
-  .sec5subtext{
-    text-align:center;
-  }
-  .icondiv{
-    flex-direction: column;
-    width:100%
+  .section-5{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
   }
 }

@@ -240,9 +240,7 @@ header .container {
   text-align:center;
 }
 .sec5subtext{
-  padding-top: 10px;
   text-align:center;
-  color: gray;
 }
 .icondiv{
   display: flex;
@@ -254,11 +252,6 @@ header .container {
 }
 .footer{
   background-color: bisque;
-}
-.footerdiv{
-  width:auto;
-  height: 40px;
-
 }
 
 

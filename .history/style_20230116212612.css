@@ -240,9 +240,7 @@ header .container {
   text-align:center;
 }
 .sec5subtext{
-  padding-top: 10px;
   text-align:center;
-  color: gray;
 }
 .icondiv{
   display: flex;
@@ -251,14 +249,6 @@ header .container {
 .sec5div img{
   filter:grayscale(100%)
   
-}
-.footer{
-  background-color: bisque;
-}
-.footerdiv{
-  width:auto;
-  height: 40px;
-
 }
 
 
@@ -318,8 +308,8 @@ header .container {
   }
 .icondiv{
   flex-direction: column;
-  width:100%
-}
+  flex:100%
+}S
 }
 @media only screen and (min-width: 688px) and (max-width: 992px) {
   .container {
@@ -344,6 +334,6 @@ header .container {
   }
   .icondiv{
     flex-direction: column;
-    width:100%
+    flex:100%
   }
 }
