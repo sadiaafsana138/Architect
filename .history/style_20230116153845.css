@@ -181,26 +181,9 @@ header .container {
     order: 2;
     text-align: center;
   }
-  .section-2{
-    display:grid;
-    grid-template-columns: repeat(1,1fr);
-  }
-  .sec2div1{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-  }
-
 }
 @media only screen and (min-width: 688px) and (max-width: 992px) {
   .container {
     width: 100%;
-  }
-  .section-2{
-    display:grid;
-    grid-template-columns: repeat(1,1fr);
-  }
-  .sec2div1{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
   }
 }
