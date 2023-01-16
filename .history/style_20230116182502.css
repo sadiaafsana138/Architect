@@ -190,11 +190,11 @@ header .container {
   font-weight:1000px;
   font-size: xx-large;
 }
-.sec3div1{
- 
-  border-left: 5px solid #ff900e;
-  height:17%;
-  
+.sec3div1::after{
+  content: '';
+  width:10px;
+  height:60%;
+  color:#ff900e;
 }
 .sec3{
   background-color: white;
@@ -223,17 +223,17 @@ header .container {
   justify-content: space-around;
   
 }
-#sec4div{
-  background-color: blue;
-  border: 100px solid #ff900e; 
-}
+
 .h3sec4 , .sec4text{
   text-align: center;
 }
 .sec4img{
   padding-left: 27%;
 }
-
+.sec4div{
+  padding-top: 10px;
+  border: 2px solid #ff900e;
+}
 
 
 

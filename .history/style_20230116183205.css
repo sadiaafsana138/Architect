@@ -223,8 +223,7 @@ header .container {
   justify-content: space-around;
   
 }
-#sec4div{
-  background-color: blue;
+.sec4div{
   border: 100px solid #ff900e; 
 }
 .h3sec4 , .sec4text{
